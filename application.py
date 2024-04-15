@@ -9,8 +9,8 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import re
 
-nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('stopwords', download_dir='/tmp')
+nltk.download('punkt', download_dir='/tmp')
 
 TEMPLATE_DIR = os.path.abspath('../templates')
 STATIC_DIR = os.path.abspath('../static')
